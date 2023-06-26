@@ -51,6 +51,7 @@
     object-position: center;
   }
 
-  .carousel-caption {   
+  .carousel-caption {
+    border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.7);
   }

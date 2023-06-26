@@ -13,9 +13,6 @@ export const Carousel = () => {
     <div className="carousel-item active">
         <div className="row">
         <CarouselItem/>
-        <CarouselItem/>
-        <CarouselItem/>
-        <CarouselItem/>
         </div>
         <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
