@@ -2,6 +2,7 @@ import { CarouselItem } from "./CarouselItem";
 
 export const Carousel = () => {
     return (
+      <div className="dark-overlay">
         <div id="carouselExampleCaptions" className="carousel slide">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -48,6 +49,7 @@ export const Carousel = () => {
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>
+</div>
 </div>
     );
 }

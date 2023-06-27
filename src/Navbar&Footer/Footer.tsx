@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <div className='navbar'>
+        <div className='navbar mt-5'>
         <footer className='container d-flex flex-wrap 
             justify-content-between align-items-center py-5 main-color'>
             <p className='col-md-4 mb-0 text-white'>© The bookshelf</p>
