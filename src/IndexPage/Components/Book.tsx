@@ -1,7 +1,9 @@
-
-// popovers initialization - on hover
+import React from "react";
 
 export const Book = () => {
+
+    const imgUrl = "http://163.44.196.216:8080/api/user/files/jpg?filePath=/home5/cp582266/Resources/AuthorProfileJPG/ChitOoNyo.jpeg";
+
     return(
         <div className="col-sm-6 col-md-4 col-lg-3">
             {/* <a className="book-container">
@@ -11,11 +13,12 @@ export const Book = () => {
 
             <div className="card book-container" style={{width:'280px',height:'480px'}}>
                 <div className="book-image">
-                <img src="https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_FMjpg_UX1000_.jpg" className="card-img-top" alt="..."/>
+                {/* <img src="https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_FMjpg_UX1000_.jpg" className="card-img-top" alt="..."/> */}
+                <img src={imgUrl} className="card-img-top" alt="..."/>
                 <div className="card-body">
                     <p className="card-text">Your Name</p>
                 </div>
-                    <button className="custom-btn btn-12"><span>Click!</span><span>Read More</span></button>
+                    {/* <button className="custom-btn btn-12"><span>Click!</span><span>Read More</span></button> */}
                 </div>
             </div>
         </div>

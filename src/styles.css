@@ -1,190 +1,273 @@
 .navbar {
-    background-color: rgb(17, 21, 36);
-    border-bottom: #8bd8ff 3px solid;
+  background-color: rgb(17, 21, 36);
+  border-bottom: #8bd8ff 3px solid;
 }
 
 .navbar a {
-    color:rgb(173, 224, 255);
+  color: rgb(173, 224, 255);
 }
 
 .navbar a:hover {
-    color:rgb(255, 255, 255);
-    transition: transform 0.3s ease;
+  color: rgb(255, 255, 255);
+  transition: transform 0.3s ease;
 }
 
 .header h2 {
-    color: rgb(17, 21, 36);
-    font-size: 2.5em;
+  color: rgb(17, 21, 36);
+  font-size: 2.5em;
 }
-
 
 /* Book Start */
 
- .book-container {
-    display: flex;
-    justify-content: space-between;
-    
-  }
+.book-container {
+  display: flex;
+  justify-content: space-between;
+}
 
-  .card {
-    transition: transform 0.3s ease;
-    border: 2px solid rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-  
-  .book-image {
-    object-fit: cover;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
-  }
+.card {
+  transition: transform 0.3s ease;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: rgb(17, 21, 36,1);
+}
 
-  .card-text{
-    color: rgb(17, 21, 36);
-    text-transform: capitalize;
-    font-size: 1.7em;
-    font-family: Dosis, sans-serif;
-  }
-  /* Book End */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
 
-  .carousel-container {
-    width: 100%;
-  }
-  
-  .carousel-image {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    object-position: center;
-    border-bottom: #000000 3px solid;
-  }
+.card-text {
+  color: rgb(17, 21, 36);
+  text-transform: capitalize;
+  font-size: 1.7em;
+  font-family: Dosis, sans-serif;
+}
+/* Book End */
 
-  .carousel-caption {
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.7);
-  }
+.carousel-container {
+  width: 100%;
+}
 
-  /* Layer */
+.carousel-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: #000000 3px solid;
+}
 
-  body {
-    background: #e0e5ec;
-  }
-  x
-  h1 {
-    position: relative;
-    text-align: center;
-    color: #353535;
-    font-size: 50px;
-    font-family: "Cormorant Garamond", serif;
-  }
-  
-  p {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    text-align: center;
-    font-size: 18px;
-    color: #676767;
-  }
-  .frame {
-    width: 90%;
-    margin: 40px auto;
-    text-align: center;
-  }
-  button {
-    margin: 20px;
-  }
-  .custom-btn {
-    width: 130px;
-    height: 40px;
-    color: #fff;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
-  }
-  
-  
-  /* Button Code Block Start */
-  .btn-12{
-    position: relative;
-    right: 20px;
-    bottom: 20px;
-    border:none;
-    box-shadow: none;
-    width: 130px;
-    height: 40px;
-    line-height: 42px;
-    -webkit-perspective: 230px;
-    perspective: 230px;
-  }
-  .btn-12 span {
-    background: rgb(0,172,238);
-  background: linear-gradient(0deg, rgba(0,172,238,1) 0%, rgba(2,126,251,1) 100%);
-    display: block;
-    position: absolute;
-    width: 130px;
-    height: 40px;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    border-radius: 5px;
-    margin:0;
-    text-align: center;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-  }
-  .btn-12 span:nth-child(1) {
-    box-shadow:
-     -7px -7px 20px 0px #fff9,
-     -4px -4px 5px 0px #fff9,
-     7px 7px 20px 0px #0002,
-     4px 4px 5px 0px #0001;
-    -webkit-transform: rotateX(90deg);
-    -moz-transform: rotateX(90deg);
-    transform: rotateX(90deg);
-    -webkit-transform-origin: 50% 50% -20px;
-    -moz-transform-origin: 50% 50% -20px;
-    transform-origin: 50% 50% -20px;
-  }
-  .btn-12 span:nth-child(2) {
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-    -webkit-transform-origin: 50% 50% -20px;
-    -moz-transform-origin: 50% 50% -20px;
-    transform-origin: 50% 50% -20px;
-  }
-  .btn-12:hover span:nth-child(1) {
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    -webkit-transform: rotateX(0deg);
-    -moz-transform: rotateX(0deg);
-    transform: rotateX(0deg);
-  }
-  .btn-12:hover span:nth-child(2) {
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-   color: transparent;
-    -webkit-transform: rotateX(-90deg);
-    -moz-transform: rotateX(-90deg);
-    transform: rotateX(-90deg);
-  }
+.carousel-caption {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
 
-    /* Button Code Block End */
+/* Layer */
+
+body {
+  background: #e0e5ec;
+}
+x h1 {
+  position: relative;
+  text-align: center;
+  color: #353535;
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+  color: #676767;
+}
+.frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+button {
+  /* margin: 20px; */
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+/* Button Code Block Start */
+.btn-12 {
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+  box-shadow: none;
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+.btn-12 span {
+  background: rgb(0, 172, 238);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 172, 238, 1) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.btn-12 span:nth-child(1) {
+  box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12 span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+.btn-12:hover span:nth-child(1) {
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+.btn-12:hover span:nth-child(2) {
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  color: transparent;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}
+
+/* Button Code Block End */
+
+.book-container {
+  width: 100px; /* Set the desired width */
+  height: 100px; /* Set the desired height */
+  overflow: hidden; /* Hide the overflowing content */
+
+  position: relative; /* Make the container a positioning context */
+  display: inline-block; /* Make the container wrap around the image */
+}
+
+.book-container img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover; /* Crop the image to fill the container */
+  object-position: center; /* Center the image within the container */
+  display: block; /* Remove any extra space below the image */
+  /* filter: blur(1px); */
+}
+
+.text-overlay {
+  width: 100%;
+  position: absolute; /* Position the text relative to the container */
+  bottom: 5%; /* Position the text 50% from the top */
+  left: 50%; /* Position the text 50% from the left */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center the text vertically and horizontally */
+  color: #ffffff; /* Set the text color */
+  font-size: 20px; /* Set the font size */
+  font-weight: bold; /* Set the font weight */
+  text-align: center; /* Center the text */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add a text shadow for better readability */
+}
+
+.text-overlay.small {
+  font-size: 10px;
+  color: #ffffff;
+}
+
+/* 9 */
+.btn-9 {
+  border: none;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.btn-9:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1fd1f9;
+  background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+  transition: all 0.3s ease;
+}
+.btn-9:hover {
+  background: transparent;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  color: #fff;
+}
+.btn-9:hover:after {
+  -webkit-transform: scale(2) rotate(180deg);
+  transform: scale(2) rotate(180deg);
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5),
+    inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+}
+
+
+.lyric-container {
+  width: 600px;
+  height: 1000px;
+  overflow: hidden;
+  border: 3px solid #f1f1f1;
+}
+
+.lyric-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.lyricbg {
+  background-color: #000000;
+}

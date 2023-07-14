@@ -1,3 +1,5 @@
+import React from "react";
+
 export const CarouselItem = () => {
     return(
       <div className="col-12">
